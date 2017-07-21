@@ -1,0 +1,19 @@
+{
+    "name": "itspeed/noodle",
+    "description": "The miroframework for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alixez",
+            "email": "alixe.z@outlook.com"
+        }
+    ],
+    "require": {
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noodle\\": "app/"
+        }
+    }
+}
